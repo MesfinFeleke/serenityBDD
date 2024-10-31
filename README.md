@@ -1,7 +1,9 @@
+java# serenityBDD
 
-src/test/java/starter
 
-├── actions
+src/test/java/com.mdf
+
+├── stepsLib
 │   ├── AddUserSteps.java
 │   ├── ContactListSteps.java
 │   └── LoginSteps.java
@@ -10,7 +12,7 @@ src/test/java/starter
 │   ├── AddUserPage.java
 │   ├── ContactListPage.java
 │   └── LoginPage.java
-└── steps
+└── stepsDef
     ├── AddUserStepDefinitions.java
     ├── ContactListStepDefinitions.java
-    └── LoginStepDefinitions.java# serenityBDD
+    └── LoginStepDefinitions
